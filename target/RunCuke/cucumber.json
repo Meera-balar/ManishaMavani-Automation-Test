@@ -1,0 +1,207 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10313637701,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "I should navigate successfully from \u0027Asia\u0027 top menu tab",
+        "description": "",
+        "id": "user-can-navigate-to-\u0027asia\u0027-top-menu-and-can-find-currency-pair;i-should-navigate-successfully-from-\u0027asia\u0027-top-menu-tab",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 114617300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I go to \u0027https://www.tradingview.com/markets/currencies/rates-all/\u0027",
+            "match": {
+              "location": "TradingViewHomePageSteps.iGoToHttpsWwwTradingviewComMarketsCurrenciesRatesAll()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 126119001,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I accept cookie",
+            "match": {
+              "location": "TradingViewHomePageSteps.iAcceptCookie()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 478184801,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on SignIn link",
+            "match": {
+              "location": "TradingViewHomePageSteps.iClickOnSignIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 648369799,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Email link",
+            "match": {
+              "location": "TradingViewHomePageSteps.iClickOnEmailLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195239500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter \"email\" into email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email",
+                  "offset": 9
+                }
+              ],
+              "location": "TradingViewHomePageSteps.iEnterIntoEmailField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142474400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter \"password\" into password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 9
+                }
+              ],
+              "location": "TradingViewHomePageSteps.iEnterIntoPasswordField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194025100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on SignIn Button",
+            "match": {
+              "location": "TradingViewHomePageSteps.iClickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73025201,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should successfully sign in to website",
+            "match": {
+              "location": "TradingViewHomePageSteps.iShouldSuccessfullySignInToWebsite()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 191247901,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on \u0027Asia\u0027 tab",
+            "match": {
+              "location": "TradingViewHomePageSteps.iClickOnAsiaTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1048789400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on search box",
+            "match": {
+              "location": "TradingViewHomePageSteps.iClickOnSearchBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 747415101,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I search \"FX: GBPJPY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FX: GBPJPY",
+                  "offset": 10
+                }
+              ],
+              "location": "TradingViewHomePageSteps.iSearch(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23813798200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on \u0027See Overview\u0027",
+            "match": {
+              "location": "TradingViewHomePageSteps.iClickOnSeeOverview()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71890500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should navigated to currency \u0027GBPJPY\u0027 page successfully",
+            "match": {
+              "location": "TradingViewHomePageSteps.iShouldNavigatedToCurrencyGBPJPYPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User can navigate to \u0027Asia\u0027 top menu and can find currency pair",
+    "description": "As a user I want to check \u0027Asia\u0027 top menu of tradingview website",
+    "id": "user-can-navigate-to-\u0027asia\u0027-top-menu-and-can-find-currency-pair",
+    "keyword": "Feature",
+    "uri": "tradingview.feature"
+  }
+]

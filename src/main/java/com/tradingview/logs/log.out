@@ -1,0 +1,13 @@
+2023-02-20 10:19:41 INFO  TradingViewPage :81 - Click on the accept cookie [[ChromeDriver: chrome on WINDOWS (23a19fc27d8a39a784e557a0a8a8225d)] -> xpath: //div[@class='actionBtn-WvyPjcpY']/button[2]]
+2023-02-20 10:19:41 INFO  TradingViewPage :86 - Click on the Sing in [[ChromeDriver: chrome on WINDOWS (23a19fc27d8a39a784e557a0a8a8225d)] -> xpath: //div[@class = 'tv-header__area tv-header__area--user']//button[1]]
+2023-02-20 10:19:42 INFO  TradingViewPage :90 - Click on the Sing in link [[ChromeDriver: chrome on WINDOWS (23a19fc27d8a39a784e557a0a8a8225d)] -> xpath: //button[@data-name = 'header-user-menu-sign-in']//span[@class='labelRow-RhC5uhZw labelRow-TZ2SJ2fG']]
+2023-02-20 10:19:42 INFO  TradingViewPage :95 - Click on the email in link [[ChromeDriver: chrome on WINDOWS (23a19fc27d8a39a784e557a0a8a8225d)] -> xpath: //span[@class = 'tv-signin-dialog__social tv-signin-dialog__toggle-email js-show-email']]
+2023-02-20 10:19:43 INFO  TradingViewPage :100 - Enter email to email field [[ChromeDriver: chrome on WINDOWS (23a19fc27d8a39a784e557a0a8a8225d)] -> xpath: //input[@name='username']]
+2023-02-20 10:19:43 INFO  TradingViewPage :105 - Enter password to password field [[ChromeDriver: chrome on WINDOWS (23a19fc27d8a39a784e557a0a8a8225d)] -> xpath: //input[@name='password']]
+2023-02-20 10:19:43 INFO  TradingViewPage :110 - Click on the sign in button [[ChromeDriver: chrome on WINDOWS (23a19fc27d8a39a784e557a0a8a8225d)] -> xpath: //span[@class = 'tv-button__loader']]
+2023-02-20 10:19:43 INFO  TradingViewPage :114 - Verify the text from page [[ChromeDriver: chrome on WINDOWS (23a19fc27d8a39a784e557a0a8a8225d)] -> xpath: //h2[contains(text(),'Forex Market')]]
+2023-02-20 10:19:43 INFO  TradingViewPage :118 - Click on the asia tab from top menu [[ChromeDriver: chrome on WINDOWS (23a19fc27d8a39a784e557a0a8a8225d)] -> xpath: //div[contains(text(),'Asia')]]
+2023-02-20 10:19:44 INFO  TradingViewPage :122 - Click on the search field [[ChromeDriver: chrome on WINDOWS (23a19fc27d8a39a784e557a0a8a8225d)] -> xpath: //div[@class='tv-header-search-container']]
+2023-02-20 10:19:45 INFO  TradingViewPage :126 - Enter text to search for  [[ChromeDriver: chrome on WINDOWS (23a19fc27d8a39a784e557a0a8a8225d)] -> xpath: //input[@name='query']]
+2023-02-20 10:20:06 INFO  TradingViewPage :130 - Click on the see overview button Proxy element for: DefaultElementLocator 'By.xpath: //div[@class = 'group-nfAwWSqk']//div[2]//button'
+2023-02-20 10:20:09 INFO  TradingViewPage :135 - Verify the text from the currancy pair page [[ChromeDriver: chrome on WINDOWS (23a19fc27d8a39a784e557a0a8a8225d)] -> xpath: //h2[@class = 'tv-feed-widget-chart__title']]
